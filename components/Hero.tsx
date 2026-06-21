@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowUpRight, Github } from "lucide-react";
+import { ArrowUpRight, Github, FileText } from "lucide-react";
 import { profile, featuredProjects } from "@/lib/data";
 
 const deployLog = featuredProjects.map((p) => ({
@@ -63,6 +63,14 @@ export function Hero() {
             >
               <Github size={16} />
               GitHub
+            </a>
+            <a
+              href={profile.resume}
+              download
+              className="inline-flex items-center gap-2 rounded-md border border-accent/20 bg-accent/5 px-5 py-2.5 text-sm font-medium text-accent transition-all hover:bg-accent/10 sm:px-6"
+            >
+              <FileText size={16} />
+              Resume
             </a>
           </motion.div>
 

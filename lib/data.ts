@@ -12,6 +12,7 @@ export const profile = {
   resumeSummary:
     "Results-driven full-stack developer and CS student with expertise in architecting scalable web applications and AI-integrated systems. Proficient in React.js, Node.js, and Generative AI (LLMs), with demonstrated success optimizing system performance and delivering user-centric solutions.",
   currentFocus: ["Generative AI / RAG systems", "Data Structures & Algorithms", "Full-stack MERN architecture"],
+  resume: "/Resume.pdf",
 };
 
 export type Project = {
